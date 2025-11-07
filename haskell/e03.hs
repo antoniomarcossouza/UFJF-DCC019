@@ -6,13 +6,15 @@ Use as funções de projeção criadas para obter cada um dos campos de um valor
 Qual o tipo das funções de projeção?
 -}
 
-{-
-3- Faça uma função para inserir (insert :: a -> Tree a -> Tree a) um elemento em uma árvore binária
--}
+data Car = Car
+  { company :: String,
+    model :: String,
+    year :: Int
+  }
+  deriving (Show)
 
 {-
-4- Qual o resultado da avaliação da expressão:
-  foldr insert Empty [5, 1, 4, 2, 3]
+3- Faça uma função para inserir (insert :: a -> Tree a -> Tree a) um elemento em uma árvore binária
 -}
 
 {-
